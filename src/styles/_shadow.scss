@@ -1,0 +1,7 @@
+$shadow-x: 6px;
+$shadow-y: 9px;
+$shadow-blur: 19px;
+$shadow-spread: -7px;
+$shadow-color: rgba(105, 105, 105, 0.15);
+
+$drop-shadow: $shadow-x $shadow-y $shadow-blur $shadow-spread $shadow-color;

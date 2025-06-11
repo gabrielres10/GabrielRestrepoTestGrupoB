@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import { MedicionForm } from './components/medicion-form/medicion-form';
 
 @Component({
   selector: 'app-root',
@@ -8,9 +9,10 @@ import { RouterModule } from '@angular/router';
   imports: [
     CommonModule,
     RouterModule,
+    MedicionForm
   ],
   template: `
-    <h1>TEST EFICACIA LIBRARY</h1>
+    <app-medicion-form></app-medicion-form>
   `,
 })
 export class AppComponent {}
